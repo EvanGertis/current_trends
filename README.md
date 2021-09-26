@@ -10,3 +10,7 @@ This project is for Current Trends in computing. The goal of this research is to
 ### Contribution to the field
 As the field of philosophy grows it is imperative that we develop an understanding of the social implications of philosophical arugments playing out in online communities. a practical application of topic modeling is managing, organizing, and annotating   large archives of texts. This project aims to extract topics that describe philosophical positions for a given dataset taken from reddit.com. 
 
+### How does LDA work?
+
+### Implementation
+In this example we build a model with 10 topics. 
