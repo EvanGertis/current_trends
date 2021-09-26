@@ -14,15 +14,25 @@ As the field of philosophy grows it is imperative that we develop an understandi
 LDA is a generative probablistic model that assumes that each topic is a mixture over an underlying set of words, and each document is a mixture of a set of probabilities. For example, if we take M documents consisting of N words and K topics then the model uses these parameters to train the output.
 
 K: number of topics
+
 N: number of words in the document
+
 M: the number of documents to analyze
+
 alpha: the Dirchlet-prior concentration parameter of the per-document topic distribution
+
 beta: the same parameter of the per-topic distribution
+
 phi(k): word distribution for topic k
+
 theta(i): the opic distribtuion for document i
+
 z(i,j): the topic assignment for word w(i,j)
+
 w(i,j): the j word in the ith document 
+
 phi and theta re the dirchlet distributions
+
 z and w are the multinomials
 
 The alpha parameter is known as the dirchlet prior concentration parameter. It represents document-topic density. With a high alpha, documents are assumed to be made up of more topiics and result in more specific topic distributioon per document.
