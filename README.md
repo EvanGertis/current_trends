@@ -37,7 +37,7 @@ phi and theta re the dirchlet distributions
 
 z and w are the multinomials
 
-The alpha parameter is known as the dirchlet prior concentration parameter. It represents document-topic density. With a high alpha, documents are assumed to be made up of more topiics and result in more specific topic distributioon per document.
+The alpha parameter is known as the dirchlet prior concentration parameter. It represents document-topic density. With a high alpha, documents are assumed to be made up of more topics and result in more specific topic distributioon per document.
 
 The beta parameter is a prior concentration parameter that represents topic-word distribution. With a high beta, topics are assumed to be made up of most of the words and result in a more specific word distribution per topic. 
 ### Implementation
