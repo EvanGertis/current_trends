@@ -12,9 +12,11 @@ def main():
     # Print head
     print(papers.head())
 
+    papers
+
     # Remove the columns
     papers = papers.drop(columns=['created_utc','score','domain','id','link_flair_text','over_18','thumbnail','subreddit_id','edited','link_flair_css_class','author_flair_css_class','is_self','name','url','distinguished','ups','downs','num_comments','permalink'], axis=1)
-
+    
     papers = papers.dropna()
     print(papers)
 
